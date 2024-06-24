@@ -1,11 +1,11 @@
-import Home from '@pages/Home'
-import { Route, Routes } from 'react-router-dom'
+import Layout from '@components/Layout'
+import Router from '@components/Router'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" Component={Home} />
-    </Routes>
+    <Layout>
+      <Router />
+    </Layout>
   )
 }
 
